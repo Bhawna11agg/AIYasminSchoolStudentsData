@@ -2,9 +2,9 @@ package com.tw.assignment1;
 
 public class StudentDetails {
 
-    String name;
-    int rollNumber;
-    String address;
+    private String name;
+    private int rollNumber;
+    private String address;
 
     StudentDetails(String name,int rollNumber,String address){
         this.address=address;
